@@ -6,7 +6,7 @@ gem 'rubysl', '~> 2.0', :platform => :rbx
 
 group :development do
   gem 'highline', '< 1.7.0'
-  gem 'coveralls'
+  gem 'coveralls', '>= 0.8.23'
   gem 'safe_yaml', '~> 1.0.4'
   gem 'travis'
   gem 'rake'
